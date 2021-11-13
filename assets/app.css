@@ -19,8 +19,7 @@ section.images {
     margin: 35px 0;
 }
 
-section.images img,
-section.coverage-map img {
+section.images img {
     border: 5px solid #fff;
     box-shadow: 0 0 14px rgba(0, 0, 0, .2);
 }
