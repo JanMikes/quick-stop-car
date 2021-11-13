@@ -1,9 +1,22 @@
+header {
+    margin-bottom: 45px;
+}
+
+h1 {
+    font-size: 0;
+    color: #fff;
+    display: block;
+    height: 0;
+    margin: 0;
+}
+
 header img {
     max-width: 300px;
 }
 
 section.images {
     text-align: center;
+    margin: 35px 0;
 }
 
 section.images img,
@@ -17,6 +30,7 @@ section.coverage-map {
 }
 
 section.coverage-map img {
+    width: 100%;
     max-width: 1000px;
 }
 
@@ -27,11 +41,24 @@ section.images a {
 }
 
 section.images img {
+    width: 100%;
     max-width: 200px;
     max-height: 143px;
 }
 
 body {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+address.contact {
+    margin: 30px 0;
+}
+
+address.contact strong {
+    font-size: 24px;
+}
+
+.container {
+    max-width: 750px;
 }
