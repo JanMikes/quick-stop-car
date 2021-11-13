@@ -22,7 +22,7 @@ section.images {
 section.images img,
 section.coverage-map img {
     border: 5px solid #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 14px rgba(0, 0, 0, .2);
 }
 
 section.coverage-map {
@@ -48,7 +48,7 @@ section.images img {
 
 body {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 address.contact {
@@ -61,4 +61,9 @@ address.contact strong {
 
 .container {
     max-width: 750px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 11px;
 }
